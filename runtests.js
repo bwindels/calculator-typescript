@@ -5,4 +5,4 @@ require('typescript-require')({
     exitOnError: true
 });
 var reporter = require('nodeunit').reporters.default;
-reporter.run(['test/test-calculator.js']);
+reporter.run(['test/test-calculator.ts']);
